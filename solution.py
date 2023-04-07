@@ -8,5 +8,10 @@ def solution(x: np.array) -> float:
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-    return x.sum()/(x.size*(-47)) # Ваш ответ
+    # Ваш ответ
+    n = len(x)
+    t = 10
+    error = np.random(0,1,n)
+    a = 2*(x+error)/t**2
+    return a.mean()
 
