@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from numpy import random
 
 
 chat_id = 33217853 # Ваш chat ID, не меняйте название переменной
