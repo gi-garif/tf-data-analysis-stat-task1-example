@@ -12,7 +12,7 @@ def solution(x: np.array) -> float:
     # Ваш ответ
     n = len(x)
     t = 10
-    error = np.random(0,1,n)
+    error = np.random.rand(0,1,n)
     a = 2*(x+error)/t**2
-    return a.mean()
+    return np.mean(a)
 
